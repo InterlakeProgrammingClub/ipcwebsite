@@ -19,7 +19,7 @@ export default function Home() {
 
 							<p className="text-xl sm:text-2xl text-storm-dust-300 mb-8 leading-relaxed max-w-2xl text-pretty">
 								Join a community of passionate programmers. Master algorithms,
-								compete in USACO, ace APCSA, and build projects that matter.
+								compete in USACO, ace APCSA, and build projects that have an impact.
 							</p>
 
 							<div className="flex flex-col sm:flex-row gap-4">
