@@ -1,4 +1,5 @@
 //lucas, alistair work here
+//not finished only page layout here
 import Image from "next/image";
 
 export default function Home() {
