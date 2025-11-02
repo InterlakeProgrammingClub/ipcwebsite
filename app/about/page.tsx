@@ -1,9 +1,5 @@
 // divith work here
 
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+export default function About() {
+	return <h1>TODO</h1>;
+}
