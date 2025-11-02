@@ -1,0 +1,68 @@
+{
+	"currentOfficers": [
+		{
+			"name": "To Be Announced",
+			"role": "President",
+			"grade": "12",
+			"bio": "Leading the club with vision and dedication.",
+			"image": null
+		},
+		{
+			"name": "To Be Announced",
+			"role": "Vice President",
+			"grade": "12",
+			"bio": "Supporting club operations and member engagement.",
+			"image": null
+		},
+		{
+			"name": "To Be Announced",
+			"role": "Secretary",
+			"grade": "11",
+			"bio": "Keeping the club organized and connected.",
+			"image": null
+		},
+		{
+			"name": "To Be Announced",
+			"role": "Treasurer",
+			"grade": "11",
+			"bio": "Managing club resources and finances.",
+			"image": null
+		}
+	],
+	"alumni": [
+		{
+			"name": "Alumni Name",
+			"role": "Former President",
+			"graduationYear": "2024",
+			"achievements": "Key achievements and contributions",
+			"current": "Current pursuits",
+			"image": null
+		}
+	],
+	"electionProcess": {
+		"overview": "Officer elections in the Interlake Programming Club are a democratic process designed to identify and empower students who demonstrate leadership, commitment, and dedication to the club's mission.",
+		"timeline": "Elections typically occur in the spring semester for the following academic year.",
+		"criteria": [
+			"Active participation and attendance at club meetings",
+			"Demonstrated leadership through taking initiative",
+			"Contributions to club activities and projects",
+			"Willingness to help others and mentor members",
+			"Commitment to advancing the club's goals"
+		]
+	},
+	"leadershipOpportunities": {
+		"usaco": {
+			"title": "USACO Leadership",
+			"description": "Members can develop leadership skills by organizing their own study groups, helping others understand complex algorithms, and teaching problem-solving strategies. Leading USACO sessions helps build communication and mentoring abilities."
+		},
+		"projects": {
+			"title": "Project Leadership",
+			"description": "Take charge of project teams and ensure everyone stays on track with timelines. Project leaders coordinate tasks, facilitate collaboration, manage deadlines, and help bring ideas from concept to reality. This provides real-world project management experience."
+		},
+		"participation": {
+			"title": "Active Participation",
+			"description": "Simply showing up, contributing ideas, and helping out is the foundation of leadership. Consistent participation and taking initiative on tasks demonstrates your commitment and leadership potential."
+		}
+	}
+}
+
