@@ -1,0 +1,26 @@
+[
+	{
+		"icon": "🏆",
+		"title": "USACO Training",
+		"description": "Structured curriculum and practice sessions to help you advance through Bronze, Silver, Gold, and Platinum divisions.",
+		"link": "/usaco"
+	},
+	{
+		"icon": "📚",
+		"title": "APCSA Support",
+		"description": "Study groups, practice problems, and exam prep to help you ace the AP Computer Science A exam.",
+		"link": "/apcsa"
+	},
+	{
+		"icon": "💻",
+		"title": "Project Development",
+		"description": "Build real-world applications with your peers. From web apps to mobile games, bring your ideas to life.",
+		"link": "/projects"
+	},
+	{
+		"icon": "👥",
+		"title": "Community & Mentorship",
+		"description": "Learn from experienced members, collaborate on challenges, and grow together as programmers.",
+		"link": "/about"
+	}
+]
