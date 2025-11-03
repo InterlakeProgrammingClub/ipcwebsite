@@ -8,7 +8,7 @@ export default function APCSA() {
         		<section className="border-l-4 border-sunglo pl-6 mb-16">
           			<div className="text-5xl font-extrabold text-sunglo">99% → 5</div>
           			<p className="mt-2 text-alto text-lg">
-            			99% student who prepared for the AP Computer Science A exam through our Programming Club earned a top score of <span className="text-sunglo font-semibold">5</span>.
+            			99% students who prepared for the AP Computer Science A exam through our Programming Club earned a top score of <span className="text-sunglo font-semibold">5</span>.
           			</p>
 					<p className="mt-2 text-alto text-lg>
 						While 1% <span className="text-sunglo font-semibold">didn't</span> want to learn
@@ -29,8 +29,8 @@ export default function APCSA() {
             			<li><span className="text-sunglo font-semibold">Growth Beyond AP</span> — We encourage building independent projects and exploring topics like data structures and algorithms.</li>
           			</ul>
          			 <div className="mt-8">
-            			<a href="#join" className="inline-block bg-sunglo text-white px-6 py-3 rounded-lg font-semibold hover:bg-storm-dust transition-colors">
-              				Join a Session
+            			<a href="/contact" className="inline-block bg-sunglo text-white px-6 py-3 rounded-lg font-semibold hover:bg-storm-dust transition-colors">
+              				Join Club
             			</a>
           			</div>
         		</section>
