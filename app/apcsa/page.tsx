@@ -6,10 +6,13 @@ export default function APCSA() {
 		<div className="min-h-screen bg-black text-alto font-sans overflow-y-scroll">
       		<main className="max-w-4xl mx-auto px-6 py-10 leading-relaxed">
         		<section className="border-l-4 border-sunglo pl-6 mb-16">
-          			<div className="text-5xl font-extrabold text-sunglo">100% → 5</div>
+          			<div className="text-5xl font-extrabold text-sunglo">99% → 5</div>
           			<p className="mt-2 text-alto text-lg">
-            			Every student who prepared for the AP Computer Science A exam through our Programming Club earned a top score of <span className="text-sunglo font-semibold">5</span>.
+            			99% student who prepared for the AP Computer Science A exam through our Programming Club earned a top score of <span className="text-sunglo font-semibold">5</span>.
           			</p>
+					<p className="mt-2 text-alto text-lg>
+						While 1% <span className="text-sunglo font-semibold">didn't</span> want to learn
+					</p>
         		</section>
        			<section className="mb-16">
          			<h2 className="text-2xl font-bold text-sunglo mb-3">What We Do</h2>
