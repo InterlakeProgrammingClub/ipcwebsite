@@ -1,7 +1,8 @@
 // rick work here
 
 export default function APCSA() {
-	return (<div className="min-h-screen bg-shark-900">
+	return (
+		<div className="min-h-screen bg-shark-900">
 			<main>
 				<section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
 					<div className="max-w-7xl mx-auto">
