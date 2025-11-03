@@ -1,4 +1,5 @@
 // rick work here
+import Link from "next/link";
 
 export default function APCSA() {
 	return (
