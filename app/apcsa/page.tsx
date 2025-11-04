@@ -10,7 +10,7 @@ export default function APCSA() {
           			<p className="mt-2 text-alto text-lg">
             			99% students who prepared for the AP Computer Science A exam through our Programming Club earned a top score of <span className="text-sunglo font-semibold">5</span>.
           			</p>
-					<p className="mt-2 text-alto text-lg>
+					<p className="mt-2 text-alto text-lg">
 						While 1% <span className="text-sunglo font-semibold">didn't</span> want to learn
 					</p>
         		</section>
@@ -24,9 +24,9 @@ export default function APCSA() {
           			<h2 className="text-2xl font-bold text-sunglo mb-4">Why Take It With Us</h2>
           			<ul className="list-disc list-inside space-y-3 text-lg text-alto">
            				<li><span className="text-sunglo font-semibold">Experienced Instructors</span> — Our student teachers have aced AP CSA themselves and have real coding experience.</li>
-            			<li><span className="text-sunglo font-semibold">Proven Results</span> — We focus on methods that directly map to what the College Board tests.</li>
+            			<li><span className="text-sunglo font-semibold">Proven Results</span> — We focus on making everybody understand and master what they need for the test.</li>
             			<li><span className="text-sunglo font-semibold">Supportive Community</span> — Learn in a collaborative, friendly environment where you can ask anything.</li>
-            			<li><span className="text-sunglo font-semibold">Growth Beyond AP</span> — We encourage building independent projects and exploring topics like data structures and algorithms.</li>
+            			<li><span className="text-sunglo font-semibold">Growth Beyond AP</span> — We encourage student to think independently and learn smartly.</li>
           			</ul>
          			 <div className="mt-8">
             			<a href="/contact" className="inline-block bg-sunglo text-white px-6 py-3 rounded-lg font-semibold hover:bg-storm-dust transition-colors">
