@@ -70,7 +70,7 @@ export function Footer() {
 						<Link
 							href="https://github.com/InterlakeProgrammingClub"
 							target="_blank"
-							className="text-storm-dust-400 hover:text-sunglo-500 transition-colors"
+							className="text-gray-400 hover:text-gray-300 transition-colors"
 						>
 							<span className="sr-only">GitHub</span>
 							<svg
@@ -89,7 +89,7 @@ export function Footer() {
 						<Link
 							href="https://discord.gg/kuKRUwjJ"
 							target="_blank"
-							className="text-storm-dust-400 hover:text-sunglo-500 transition-colors"
+							className="text-indigo-500 hover:text-indigo-400 transition-colors"
 						>
 							<span className="sr-only">Discord</span>
 							<svg
@@ -104,11 +104,11 @@ export function Footer() {
 						<Link
 							href="https://www.instagram.com/interlake_programming/"
 							target="_blank"
-							className="text-storm-dust-400 hover:text-sunglo-500 transition-colors"
+							className="transition-colors"
 						>
 							<span className="sr-only">Instagram</span>
 							<svg
-								className="w-5 h-5"
+								className="w-5 h-5 bg-linear-to-tr from-[#fdf497] via-[#fd5949] via-50% to-[#285AEB] rounded hover:brightness-120"
 								fill="currentColor"
 								viewBox="0 0 24 24"
 								aria-hidden="true"
@@ -123,7 +123,7 @@ export function Footer() {
 						<Link
 							href="https://www.linkedin.com/company/interlakeprogrammingclub/"
 							target="_blank"
-							className="text-storm-dust-400 hover:text-sunglo-500 transition-colors"
+							className="text-blue-600 hover:text-blue-500 transition-colors"
 						>
 							<span className="sr-only">LinkedIn</span>
 							<svg
