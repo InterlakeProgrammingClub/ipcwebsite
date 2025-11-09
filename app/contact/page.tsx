@@ -1,11 +1,5 @@
 //dima work here
 //dima work here
-import Link from "next/link";
-import stats from "../data/stats.json";
-import features from "../data/features.json";
-
- 
-
 export default function Contact() {
   return (
     <div className="min-h-screen bg-shark-900">
@@ -21,7 +15,7 @@ export default function Contact() {
             </div>
             <div className="max-w-3xl">
               <p className="text-2xl sm:text-3xl text-storm-dust-300 leading-relaxed">
-                Have questions? Want to get involved? We'd love to hear from you.
+                Have questions? Want to get involved? We&apos;d love to hear from you.
               </p>
             </div>
           </div>

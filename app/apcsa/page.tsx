@@ -1,6 +1,4 @@
 // rick work here
-import Link from "next/link";
-
 export default function APCSA() {
 	return (
 		<div className="min-h-screen bg-black text-alto font-sans overflow-y-scroll">
@@ -11,7 +9,7 @@ export default function APCSA() {
             			99% students who prepared for the AP Computer Science A exam through our Programming Club earned a top score of <span className="text-sunglo font-semibold">5</span>.
           			</p>
 					<p className="mt-2 text-alto text-lg">
-						While 1% <span className="text-sunglo font-semibold">didn't</span> want to learn
+						While 1% <span className="text-sunglo font-semibold">didn&apos;t</span> want to learn
 					</p>
         		</section>
        			<section className="mb-16">

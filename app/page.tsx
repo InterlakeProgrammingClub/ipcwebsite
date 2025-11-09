@@ -1,6 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
 import stats from "../data/stats.json";
 import features from "../data/features.json";
+import meeting from "../public/content/meeting.jpeg";
 
 export default function Home() {
 	return (
@@ -8,33 +10,46 @@ export default function Home() {
 			<main>
 				<section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
 					<div className="max-w-7xl mx-auto">
-						<div className="max-w-4xl">
-							<div className="inline-block mb-4 px-3 py-1 bg-shark-800 border border-shark-700 text-sunglo-400 text-sm font-mono">
-								{"// Welcome to the club"}
+						<div className="grid lg:grid-cols-2 gap-12 items-center">
+							<div className="max-w-4xl">
+								<div className="inline-block mb-4 px-3 py-1 bg-shark-800 border border-shark-700 text-sunglo-400 text-sm font-mono">
+									{"// Welcome to the club"}
+								</div>
+
+								<h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-alto-50 mb-6 leading-tight text-balance">
+									Code, Compete, <span className="text-sunglo-500">Create</span>
+								</h1>
+
+								<p className="text-xl sm:text-2xl text-storm-dust-300 mb-8 leading-relaxed max-w-2xl text-pretty">
+									Join a community of passionate programmers. Master algorithms,
+									compete in USACO, ace APCSA, and build projects that have an
+									impact.
+								</p>
+
+								<div className="flex flex-col sm:flex-row gap-4">
+									<Link
+										href="/contact"
+										className="inline-flex items-center justify-center px-8 py-4 bg-sunglo-500 text-shark-900 font-semibold hover:bg-sunglo-400 transition-colors"
+									>
+										Join the Club
+									</Link>
+									<Link
+										href="/projects"
+										className="inline-flex items-center justify-center px-8 py-4 bg-shark-800 text-alto-50 font-semibold border border-shark-700 hover:border-sunglo-500 transition-colors"
+									>
+										View Projects
+									</Link>
+								</div>
 							</div>
 
-							<h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-alto-50 mb-6 leading-tight text-balance">
-								Code, Compete, <span className="text-sunglo-500">Create</span>
-							</h1>
-
-							<p className="text-xl sm:text-2xl text-storm-dust-300 mb-8 leading-relaxed max-w-2xl text-pretty">
-								Join a community of passionate programmers. Master algorithms,
-								compete in USACO, ace APCSA, and build projects that have an impact.
-							</p>
-
-							<div className="flex flex-col sm:flex-row gap-4">
-								<Link
-									href="/contact"
-									className="inline-flex items-center justify-center px-8 py-4 bg-sunglo-500 text-shark-900 font-semibold hover:bg-sunglo-400 transition-colors"
-								>
-									Join the Club
-								</Link>
-								<Link
-									href="/projects"
-									className="inline-flex items-center justify-center px-8 py-4 bg-shark-800 text-alto-50 font-semibold border border-shark-700 hover:border-sunglo-500 transition-colors"
-								>
-									View Projects
-								</Link>
+							<div className="hidden lg:block">
+								<div className="w-full aspect-video bg-shark-800 border border-shark-700 rounded-lg flex items-center justify-center">
+									<Image
+										src={meeting}
+										alt="Interlake Programming Club Meeting"
+										className="w-full h-full object-cover rounded-lg"
+									/>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -75,7 +90,7 @@ export default function Home() {
 								<Link
 									key={index}
 									href={feature.link}
-									className="group p-8 bg-shark-800 border border-shark-700 hover:border-sunglo-500 transition-all"
+									className="group p-8 bg-shark-800 border border-sunglo-500 hover:border-sunglo-400 transition-all rounded-lg"
 								>
 									<div className="text-4xl mb-4">{feature.icon}</div>
 									<h3 className="text-xl font-bold text-alto-50 mb-3 group-hover:text-sunglo-500 transition-colors">

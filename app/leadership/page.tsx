@@ -42,7 +42,7 @@ export default function Leadership() {
 							{currentOfficers.map((officer, index) => (
 								<div key={index} className="p-8 bg-shark-800 border-l-4 border-sunglo-500 hover:border-l-8 hover:bg-shark-700 transition-all duration-300">
 									<div className="flex items-start gap-8">
-										<div className="relative w-32 h-32 flex-shrink-0 bg-shark-700 border border-shark-600 overflow-hidden">
+										<div className="relative w-32 h-32 shrink-0 bg-shark-700 border border-shark-600 overflow-hidden">
 											{officer.image ? (
 												<Image 
 													src={officer.image} 
@@ -99,7 +99,7 @@ export default function Leadership() {
 								<div className="space-y-4">
 									{electionProcess.criteria.map((criterion, index) => (
 										<div key={index} className="flex items-start gap-4">
-											<span className="text-2xl text-sunglo-500 flex-shrink-0">→</span>
+											<span className="text-2xl text-sunglo-500 shrink-0">→</span>
 											<span className="text-storm-dust-300 leading-relaxed">{criterion}</span>
 										</div>
 									))}
@@ -139,7 +139,7 @@ export default function Leadership() {
 								{alumni.map((alum, index) => (
 									<div key={index} className="pb-12 border-b border-shark-700 last:border-b-0">
 										<div className="flex items-start gap-8 mb-6">
-											<div className="relative w-24 h-24 flex-shrink-0 bg-shark-700 border border-shark-600 overflow-hidden rounded-full">
+											<div className="relative w-24 h-24 shrink-0 bg-shark-700 border border-shark-600 overflow-hidden rounded-full">
 												{alum.image ? (
 													<Image 
 														src={alum.image} 
