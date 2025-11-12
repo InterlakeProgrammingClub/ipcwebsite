@@ -26,22 +26,22 @@ export default function Contact() {
           <div className="max-w-5xl mx-auto space-y-12">
             <div className="bg-shark-800 border-l-4 border-sunglo-500 p-8">
               <h2 className="text-3xl font-bold text-alto-50 mb-4">Email</h2>
-              <p className="text-storm-dust-300 text-lg">clubemail@gmail.com</p>
+              <p className="text-storm-dust-300 text-lg">interlakeprogrammigclub@gmail.com</p>
             </div>
 
             <div className="bg-shark-800 border-l-4 border-sunglo-500 p-8">
               <h2 className="text-3xl font-bold text-alto-50 mb-4">Instagram</h2>
-              <p className="text-storm-dust-300 text-lg">@clubinstagram</p>
+              <p className="text-storm-dust-300 text-lg">@interlake_progammig</p>
             </div>
 
             <div className="bg-shark-800 border-l-4 border-sunglo-500 p-8">
               <h2 className="text-3xl font-bold text-alto-50 mb-4">Meeting Location</h2>
-              <p className="text-storm-dust-300 text-lg">Room 305 every Wednesday after school</p>
+              <p className="text-storm-dust-300 text-lg">Room 1809 every Thursday after school at 3:30 pm</p>
             </div>
 
             <div className="bg-shark-800 border-l-4 border-sunglo-500 p-8">
               <h2 className="text-3xl font-bold text-alto-50 mb-4">Advisor</h2>
-              <p className="text-storm-dust-300 text-lg">Mr. Smith - smith@school.org</p>
+              <p className="text-storm-dust-300 text-lg">Dan Peterson - PetersonD@bsd405.org</p>
             </div>
           </div>
         </section>
