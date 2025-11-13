@@ -26,12 +26,12 @@ export default function Contact() {
           <div className="max-w-5xl mx-auto space-y-12">
             <div className="bg-shark-800 border-l-4 border-sunglo-500 p-8">
               <h2 className="text-3xl font-bold text-alto-50 mb-4">Email</h2>
-              <p className="text-storm-dust-300 text-lg">interlakeprogrammigclub@gmail.com</p>
+              <p className="text-storm-dust-300 text-lg">interlakeprogrammingclub@gmail.com</p>
             </div>
 
             <div className="bg-shark-800 border-l-4 border-sunglo-500 p-8">
               <h2 className="text-3xl font-bold text-alto-50 mb-4">Instagram</h2>
-              <p className="text-storm-dust-300 text-lg">@interlake_progammig</p>
+              <p className="text-storm-dust-300 text-lg">@interlake_programming</p>
             </div>
 
             <div className="bg-shark-800 border-l-4 border-sunglo-500 p-8">
