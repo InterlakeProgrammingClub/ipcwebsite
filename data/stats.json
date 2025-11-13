@@ -1,22 +1,46 @@
-[
-	{
-		"value": "100+",
-		"label": "Active Members",
-		"sublabel": "Growing community"
-	},
-	{
-		"value": "20+",
-		"label": "Projects Built",
-		"sublabel": "Real-world experience"
-	},
-	{
-		"value": "25+",
-		"label": "USACO Qualifiers",
-		"sublabel": "Competitive excellence"
-	},
-	{
-		"value": "99%",
-		"label": "APCSA 5 Rate",
-		"sublabel": "Academic success"
-	}
-]
+{
+  "main": [
+    {
+      "value": "100+",
+      "label": "Active Members",
+      "sublabel": "Growing community"
+    },
+    {
+      "value": "20+",
+      "label": "Projects Built",
+      "sublabel": "Real-world experience"
+    },
+    {
+      "value": "25+",
+      "label": "USACO Qualifiers",
+      "sublabel": "Competitive excellence"
+    },
+    {
+      "value": "99%",
+      "label": "APCSA 5 Rate",
+      "sublabel": "Academic success"
+    }
+  ],
+  "usaco": [
+    {
+      "value": "10+",
+      "label": "Silver promotions",
+      "sublabel": "Achieved annually"
+    },
+    {
+      "value": "3+",
+      "label": "Gold promotions",
+      "sublabel": "Achieved annually"
+    },
+    {
+      "value": "5+",
+      "label": "Coding Competitions",
+      "sublabel": "Competitive practice"
+    },
+    {
+      "value": "95%",
+      "label": "Member Satisfaction",
+      "sublabel": "Positive feedback"
+    }
+  ]
+}

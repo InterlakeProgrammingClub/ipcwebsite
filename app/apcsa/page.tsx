@@ -1,15 +1,15 @@
 // rick work here
-import Link from "next/link";
-
 export default function APCSA() {
 	return (
-		<>
-			<main className="container">
-				<section className="stat">
-					<h2>99% → 5</h2>
-					<p>
-						Every student who prepared for the AP Computer Science A exam through our{" "}
-						<span>Programming Club</span> earned a top score of <span>5</span>.
+		<div className="min-h-screen bg-black text-alto font-sans overflow-y-scroll">
+      		<main className="max-w-4xl mx-auto px-6 py-10 leading-relaxed">
+        		<section className="border-l-4 border-sunglo pl-6 mb-16">
+          			<div className="text-5xl font-extrabold text-sunglo">99% → 5</div>
+          			<p className="mt-2 text-alto text-lg">
+            			99% students who prepared for the AP Computer Science A exam through our Programming Club earned a top score of <span className="text-sunglo font-semibold">5</span>.
+          			</p>
+					<p className="mt-2 text-alto text-lg">
+						While 1% <span className="text-sunglo font-semibold">didn&apos;t</span> want to learn
 					</p>
 					<p>
 						While 1% <span>didn't</span> want to learn
