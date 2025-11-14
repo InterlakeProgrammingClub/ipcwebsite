@@ -1,103 +1,75 @@
-// rick work here
+
 export default function APCSA() {
-	return (
-		<div className="min-h-screen bg-black text-alto font-sans overflow-y-scroll">
-      		<main className="max-w-4xl mx-auto px-6 py-10 leading-relaxed">
-        		<section className="border-l-4 border-sunglo pl-6 mb-16">
-          			<div className="text-5xl font-extrabold text-sunglo">99% → 5</div>
-          			<p className="mt-2 text-alto text-lg">
-            			99% students who prepared for the AP Computer Science A exam through our Programming Club earned a top score of <span className="text-sunglo font-semibold">5</span>.
-          			</p>
-					<p className="mt-2 text-alto text-lg">
-						While 1% <span className="text-sunglo font-semibold">didn&apos;t</span> want to learn
-					</p>
-					<p>
-						While 1% <span>didn't</span> want to learn
-					</p>
-				</section>
+  return (
+    <div className="flex min-h-screen items-center justify-center bg-black font-sans text-zinc-200">
+      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-start py-32 px-10 sm:items-start">
+        
+        {/* Header */}
+        <div className="flex flex-col items-center gap-3 text-center sm:items-start sm:text-left mb-16">
+          <h1 className="text-3xl font-semibold leading-10 tracking-tight text-zinc-50">
+            Programming Club — AP Computer Science A
+          </h1>
+          <p className="text-zinc-500">
+            Where experience, teamwork, and proven results meet.
+          </p>
+        </div>
 
-				<section>
-					<h3>What We Do</h3>
-					<p>
-						Our AP CSA section helps students build strong foundations in <span>Java</span> and
-						computer science principles. We mix <span>concept practice</span>,{" "}
-						<span>exam-style questions</span>, and <span>hands-on projects</span> to strengthen
-						understanding and confidence for the AP exam and beyond.
-					</p>
-				</section>
+        {/* Stats Section */}
+        <section className="border-l-4 border-[#E26D5A] pl-6 mb-16">
+          <div className="text-5xl font-extrabold text-[#E26D5A]">
+            99% → 5
+          </div>
+          <p className="mt-3 text-zinc-300">
+            99% of students who prepared for the AP Computer Science A exam through our Programming Club earned a top score of{" "}
+            <span className="text-[#E26D5A] font-bold">5</span>.
+          </p>
+          <p className="text-zinc-400">
+            While 1% <span className="text-[#E26D5A] font-bold">didn't</span> want to learn
+          </p>
+        </section>
 
-				<section>
-					<h3>Why Take It With Us</h3>
-					<ul>
-						<li>
-							<span>Experienced Instructors</span> — Our student teachers have aced AP CSA
-							themselves and have real coding experience.
-						</li>
-						<li>
-							<span>Reliable Teaching</span> — We focus on making everybody understand and 
-							master what they need for the test.
-						</li>
-						<li>
-							<span>Supportive Community</span> — Learn in a collaborative, friendly environment
-							where you can ask anything.
-						</li>
-						<li>
-							<span>Growth Beyond AP</span> — We encourage student to think independently and learn smartly
-						</li>
-					</ul>
-					<Link href="/contact" className="button">
-						Join a Session
-					</Link>
-				</section>
-			</main>
+        {/* What We Do */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-semibold leading-10 tracking-tight text-[#E26D5A] mb-4">
+            What We Do
+          </h2>
+          <p className="max-w-lg text-lg leading-7 text-zinc-300">
+            Our AP CSA section helps students build strong foundations in Java and computer science principles. We mix{" "}
+            <span className="text-[#E26D5A] font-bold">concept practice</span>,{" "}
+            <span className="text-[#E26D5A] font-bold">exam-style questions</span>, and{" "}
+            <span className="text-[#E26D5A] font-bold">hands-on projects</span> that strengthen understanding and confidence for the AP exam and beyond.
+          </p>
+        </section>
 
-			<style jsx>{`
-				.container {
-					min-height: 100vh;
-					background-color: #000000;
-					color: #d9d9d9;
-					padding: 4rem 2rem;
-					line-height: 1.7;
-				}
-				h2 {
-					color: #e26d5a;
-					font-size: 3rem;
-					font-weight: 800;
-					border-left: 4px solid #e26d5a;
-					padding-left: 1rem;
-					margin-bottom: 2rem;
-				}
-				h3 {
-					color: #e26d5a;
-					font-size: 1.6rem;
-					font-weight: 700;
-					margin-bottom: 1rem;
-				}
-				span {
-					color: #e26d5a;
-					font-weight: 600;
-				}
-				ul {
-					list-style: disc;
-					margin-left: 1.5rem;
-					margin-bottom: 2rem;
-				}
-				.button {
-					display: inline-block;
-					background-color: #e26d5a;
-					color: white;
-					padding: 0.75rem 1.5rem;
-					border-radius: 8px;
-					font-weight: 600;
-					text-decoration: none;
-				}
-				.button:hover {
-					background-color: #666666;
-				}
-			`}</style>
-		</>
-	);
+        {/* Why Take It With Us */}
+        <section className="mb-20">
+          <h2 className="text-3xl font-semibold leading-10 tracking-tight text-[#E26D5A] mb-4">
+            Why Take It With Us
+          </h2>
+          <ul className="list-none space-y-3 text-zinc-300">
+            <li>
+              <span className="text-[#E26D5A] font-bold">Experienced Instructors</span> — Our student teachers have aced AP CSA themselves and have real coding experience.
+            </li>
+            <li>
+              <span className="text-[#E26D5A] font-bold">Reliable Teaching</span> — We focus on making everybody understand and master what they need for the test.
+            </li>
+            <li>
+              <span className="text-[#E26D5A] font-bold">Supportive Community</span> — Learn in a collaborative, friendly environment where you can ask anything.
+            </li>
+            <li>
+              <span className="text-[#E26D5A] font-bold">Growth Beyond AP</span> — We encourage students to think independently and learn smartly.
+            </li>
+          </ul>
+
+          <a
+            href="/contact"
+            className="inline-block mt-6 rounded-lg bg-[#E26D5A] px-6 py-3 font-semibold text-white hover:bg-zinc-600 transition"
+          >
+            Join a Session
+          </a>
+        </section>
+
+      </main>
+    </div>
+  );
 }
-
-
-
