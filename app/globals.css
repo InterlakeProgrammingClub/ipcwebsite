@@ -207,3 +207,24 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes gradient-x {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes border-gradient-move {
+  0% {
+    border-image-source: linear-gradient(90deg, #e35d6a, #f9a8d4);
+  }
+  50% {
+    border-image-source: linear-gradient(270deg, #f9a8d4, #e35d6a);
+  }
+  100% {
+    border-image-source: linear-gradient(90deg, #e35d6a, #f9a8d4);
+  }
+}
