@@ -1,6 +1,6 @@
 // divith work here
 export default function About() {
-  return (<h1>TODO</h1>;
+  return (
     <div className="flex min-h-screen items-center justify-center bg-alto-50 font-sans dark:bg-shark-600">
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-20 px-10 bg-white dark:bg-shark-600 sm:items-start">
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
@@ -16,9 +16,6 @@ export default function About() {
           </p>
         </div>
       </main>
-    </div>
-  );
-}
     </div>
   );
 }
